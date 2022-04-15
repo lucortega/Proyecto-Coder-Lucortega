@@ -1,5 +1,31 @@
+* {
+    background-color: rgba(185,222,153,10%);
+}
 footer {
-    display: flex;
     justify-content: center;
+	text-align: center;
+	margin-top: 80px;
+    color: #4A7F73;
+}
+footer a {
+    display: flex;
+    text-decoration: none;
+	color: #4A7F73;
+    justify-content: flex-start;
     align-items: center;
+}
+nav {
+    background-color: rgba(185,222,153,80%);
+}
+#nosotros {
+    background-color:  #DEF2C7;
+}
+#pfnosotros {
+    background-color: #DEF2C7;
+}
+.col-2 {
+    background-color: #D8EBE1;
+}
+.col-4 {
+    background-color: #D8EBE1; 
 }
