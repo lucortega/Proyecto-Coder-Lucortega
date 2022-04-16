@@ -1,6 +1,9 @@
 * {
     background-color: rgba(185,222,153,10%);
 }
+.col-10 {
+    background-color: rgba(185,222,153,10%);
+}
 footer {
     justify-content: center;
 	text-align: center;
@@ -53,3 +56,36 @@ nav {
     color: #31120D;
 }
 
+#ancla {
+    color: green;
+}
+
+table {
+    animation-duration: 5s;
+    animation-name: revelar;
+}
+
+@keyframes revelar {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 2;
+    }
+    60% {
+        opacity: 3;
+
+    }
+    80% {
+        opacity: 4;
+    }
+    100% {
+        opacity: 5;
+    }
+}
+.col-10 h4 {
+    
+}
