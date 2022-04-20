@@ -92,9 +92,27 @@ table {
     transition-property: all;
     transition-duration: 2s;
 }
-
-
-textarea {
-    
+ a:visited {
+     color: violet;
+ }
+a:active {
+    background-color: cadetblue;
 }
 
+
+/* RESPONSIVE ESTANDAR */
+
+/* ESCRITORIO  */
+@media (min-width: 992px) {
+
+}
+/* TAMANO TABLET */
+@media (min-width:577px) and (max-width:991px) {
+
+}
+
+
+/* TAMANO CELU */
+@media (max-width: 576px) {
+    
+}
