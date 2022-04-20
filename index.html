@@ -21,7 +21,48 @@
 
 <body>
     <div class="container-fluid">
-        <div class="container">
+       <!-- comienzo de barra de navegacion -->
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="green" class="bi bi-image-alt" viewBox="0 0 16 16">
+            <path d="M7 2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zm4.225 4.053a.5.5 0 0 0-.577.093l-3.71 4.71-2.66-2.772a.5.5 0 0 0-.63.062L.002 13v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4.5l-4.777-3.947z"/>
+          </svg>   Quebrada Verde</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./components/cabanas.html">Nuestras Cabañas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./components/contacto.html">Contacto</a></li>
+                  <li><a class="dropdown-item" href="./components/servicios.html">Servicios</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./components/ubicacion.html">ubicacion</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Reservas</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+       <!-- final de barra de navecacion -->
+      
+      <!-- <div class="container">
 			<header>
 				<h1 id="ancla" class="text-center my-4 heading">CABAÑAS QUEBRADA VERDE</h1>
 			</header>
@@ -44,7 +85,7 @@
 					</li>
 				</ul>
 			</nav>
-		</div>
+		</div> -->
     <div class="container">
             
         <div class="container">
@@ -133,6 +174,39 @@
                   </table>
                 </div> 
                 
+              
+              <!-- CABANAS -->
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./imagenes/6.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Cabana para seis huespedes con patio y horno de barro</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./imagenes/7.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Cabana para dos huespedes con patio y hotno de barro</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./imagenes/8.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Cabana con pileta para los huespedes</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+             
+              <!-- FIN CABANAS -->
                 <div class="contactanos">
                     
                     
@@ -145,6 +219,7 @@
                     
                         
                 </div>
+                
               </div>
               
               <div class="col-2">
@@ -171,10 +246,28 @@
             </div>
           </div>        
                 
-        <footer>
+       <!-- footer -->
+       <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="green" class="bi bi-image-alt" viewBox="0 0 16 16">
+                <path d="M7 2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zm4.225 4.053a.5.5 0 0 0-.577.093l-3.71 4.71-2.66-2.772a.5.5 0 0 0-.63.062L.002 13v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4.5l-4.777-3.947z"/>
+              </svg>
+              <!-- <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg> -->
+            </a>
+            <span class="text-muted">&copy; Quebrada Verde  | Since 2020 | Design: Lucas Ortega</span>
+          </div>
+      
+         
+        </footer>
+      </div>
+
+       <!-- fin footer -->
+          <!-- <footer>
 			    <h4><a href="#ancla">Ir arriba</a></h4>
 		    	<p>&copy; CABAÑAS QUEBRADA VERDE | Since 2020 | Design: Lucas Ortega</p>
-		    </footer> 
+		    </footer>  -->
 
 
     </div>  
